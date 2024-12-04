@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultat - PNJ Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        #oui {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            animation: grow 2s forwards;
+            white-space: nowrap;
+        }
+
+        @keyframes grow {
+            0% {
+                font-size: 12px;
+                opacity: 0;
+            }
+            100% {
+                font-size: 1000px;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="oui">OUI</div>
+</body>
+</html>
